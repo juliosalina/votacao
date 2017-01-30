@@ -1,4 +1,4 @@
-# Globo.com - Construindo uma Sistema de votação para o BBB 2017 com RESTfull API - Node.Js & ExpressJs com MongoDb
+# Construindo uma Sistema de votação com RESTfull API - Node.Js & ExpressJs com MongoDb e ReactJs
 
 ## Recursos utilizados no desenvolvimento:
 
@@ -18,16 +18,13 @@ Caso queira testar as API's criadas no projeto, primeiro baixe o [Postman](https
 Depois de realizar o download do Postman, basta agora realizar os passos abaiaxo para 
 poder testar cada API criada!
 
-  ROTA                              |     HTTP(Verbo)   |      Descrição                                                                               | 
------------------------------------ | ----------------- | ----------------------------------------------------------------------------------------     | 
-/api/participantes                  |       GET         | Lista todos os participantes da votação                                                      | 
-/api/participantes                  |       POST        | Inserção do Participante na votação 
-                                                          Utilizar no Postman - Content-Type: application/x-www-form-urlencoded
-                                                          Colocar no Postman - Body: Selecionar 'x-www-form-urlencoded' e criar os campos:
-                                                          (nome - telefone - sms - votos)                                                              | 
-/api/participantes/:participante_id |       GET         | Selecionar Por Id                                                                            | 
-/api/participantes/:participante_id |       PUT         | Atualizar Por Id                                                                             |
-/api/participantes/:participante_id |       DELETE      | Excluir Por Id                                                                               |
+  ROTA                              |     HTTP(Verbo)   |      Descrição                           | 
+----------------------------------- | ----------------- | -----------------------------------------| 
+/api/participantes                  |       GET         | Lista todos os participantes da votação  | 
+/api/participantes                  |       POST        | Inserção do Participante na votação      | 
+/api/participantes/:participante_id |       GET         | Selecionar Por Id                        | 
+/api/participantes/:participante_id |       PUT         | Atualizar Por Id                         |
+/api/participantes/:participante_id |       DELETE      | Excluir Por Id                           |
 
 ## Executar Localmente
 
